@@ -1,0 +1,73 @@
+Bokningsapp för ett taxibolag 
+
+Jag använder mig utav vattenfallsmetoden 
+
+ 
+
+ 
+
+Kravspecifikation 
+
+När det gäller att samla in och analysera krav från taxibolaget, chaufförer och kunder bör man följa följande steg. Först och främst är det viktigt att prata med alla intressentgrupper och lyssna på deras behov och förslag. Detta kan ske genom enkla samtal eller mindre gruppstudier. Man bör vara öppen för idéer från alla sidor, även om de verkar oväsentliga på första ögonblicket. När det gäller dokumentationen av kraven bör man vara tydlig och enkel. Varje krav bör beskrivas klart utan ambiguitet. Man bör också ange vem som har gett kravet och varför. Prioriteringen av kraven är en viktig del. Man bör använda en enkel skala från 1 till 5 där 1 är lägst prioritet och 5 är högst. Kraven som direkt påverkar kundupplevelsen och affärsresultaten bör ges högre prioritet. Det är också bra att tänka på långsiktiga konsekvenser när man prioriterar. Till exempel kan en funktion som ökar prestandan i korta perspektivet kanske inte vara lika viktig som en som främjar hållbarhet och miljömedvetenhet i längre perspektiv. Detta hjälper till att skapa ett system som verkligen möter kundernas behov och förbättrar affärsresultatet för taxibolaget. 
+
+ 
+
+Systemdesign 
+
+Utveckla en övergripande arkitektur för appen. 
+
+Designa grundläggande systemkomponenter och gränssnitt. 
+
+Skapa prototyper för att testa designkoncept. 
+
+Utvärdera och välja lämplig teknologi för appen. 
+
+Konfigurera utvecklingssystem och miljöer. 
+
+Genom att noggrant utveckla systemarkitekturen, designa grundläggande komponenter och skapa prototyper kan vi säkerställa att taxibokningsappen är bra och levererar en god användarupplevelse från start när den lanseras. Detta kommer även underlätta för fortsatt utveckling och underhåll av appen i framtiden. 
+
+ 
+
+konstruktion 
+
+ 
+
+Implementera funktionalitet i koden  
+
+För att implementera funktionalitet i koden för ett taxibolag bör man fokusera på följande områden: 
+
+Utveckla bokningssystemet med möjlighet att boka taxi online eller via app. 
+
+implementera geobaserad positionering för chaufförerna. 
+
+Skapa funktioner för fakturering och betalning både kort och swish. 
+
+Utveckla system för att hantera chaufförernas arbetstider och disponibilitet. 
+
+implementera en funktion för att skicka push-notiser till kunder om deras taxi har anlänt. 
+
+Integrera med sociala medier för att öka synligheten och marknadsföringen 
+
+Testning 
+
+fokus ligga på att säkerställa att alla funktioner, från bokning till betalning, fungerar smidigt för både kunder och förare. Testprocessen börjar med att skapa en tydlig och enkel testplan som beskriver vilka delar av systemet som kommer att testas och varför dessa delar är viktiga för taxibolagets verksamhet. Det är avgörande att testplanen är lättförståelig och fri från tekniska termer som kan skapa förvirring. Dessutom ska planen vara flexibel nog att hantera eventuella förändringar i utvecklingsprocessen, men ändå vara tillräckligt detaljerad för att ge riktlinjer för testningen. För att genomföra testerna behöver man sätta upp en testmiljö som efterliknar produktionssystemet så nära som möjligt. Testmiljön bör även kunna hantera olika typer av tester, från funktionella tester till stresstester där systemet utsätts för hög belastning, exempelvis under helger eller vid stora evenemang när bokningstrycket är som störst. 
+
+Testmiljön bör även kunna hantera olika typer av tester, från funktionella tester till stresstester där systemet utsätts för hög belastning, exempelvis under helger eller vid stora evenemang när bokningstrycket är som störst. 
+
+ 
+
+Underhåll 
+
+ Främst behöver appens programvara och system hållas uppdaterade. Det är viktigt att appen inte bara fungerar tekniskt sett, utan även erbjuder en smidig upplevelse för användarna. Regelbundna användartester och feedback från förare och kunder hjälper till att identifiera områden som kan förbättras, såsom navigeringen i appen eller bokningsflödet. Små justeringar i design och funktionalitet kan göra stor skillnad i hur användarna upplever appen. 
+
+ 
+
+Distritubition  
+
+Förberedelserna inför en distribution börjar med att all kod har granskats och att tester har genomförts noggrant. Backuper av den tidigare versionen av systemet är nödvändiga för att säkerställa att man kan återställa den om något går fel under eller efter distributionen. En tydlig plan för ska vara definierad för nödsituationer. 
+
+ 
+
+Den här planen följer Vattenfallsmodellen där varje fas bygger på föregående fas. Den ger en tydlig struktur för systemutvecklingsprojektet för taxibokningsappen och säkerställer att alla relevanta steg inkluderas. 
+
+ 
